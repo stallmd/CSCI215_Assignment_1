@@ -1,0 +1,51 @@
+#wrapper {width: 80%;
+			max-width: 1000px;
+			min-width: 700px;
+			background-color: wheat;
+			margin: auto;
+			overflow:auto}
+			
+body{background-color: maroon;
+	font-family: "ariel", ariel, sans-serif; }
+
+header {background-color: white;
+		padding: 10px;}
+
+main {padding: 10px;}
+
+#topleftcol {width: 300px;
+		min-height: 300px;
+			margin: 10px;
+			background-color: tan;
+			padding-left: 10px;
+			padding-right: 10px;
+		
+		border: 2px solid black;}
+		
+#botleftcol {width: 300px;
+		min-height: 300px;
+			margin: 10px;
+			background-color: tan;
+			padding-left: 10px;
+			padding-right: 10px;
+		
+		border: 2px solid black;}
+		
+#toprightcol {width: 300px;
+		min-height: 300px;
+			margin: 10px;
+			background-color: tan;
+			padding-left: 10px;
+			padding-right: 10px;
+		
+		border: 2px solid black;}
+		
+#botrightcol {width: 300px;
+		min-height: 300px;
+			margin: 10px;
+			background-color: tan;
+			padding-left: 10px;
+			padding-right: 10px;
+		
+		border: 2px solid black;}
+		

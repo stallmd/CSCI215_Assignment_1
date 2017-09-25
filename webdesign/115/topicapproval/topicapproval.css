@@ -1,0 +1,25 @@
+body { background-image: url(race.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+dt {font-weight: bold;}
+
+header {color: white;
+		font-family: lucida grande, arial, sans-serif;
+		text-align: center;
+		text-shadow: 3px 3px black;
+		}
+
+#wrapper {color: #F0FFF0;
+		background-color: rgba(0,0,0,0.8);
+		font-family: lucida grande, arial, sans-serif;
+		border-radius: 10px;}
+		
+#wrapper h2 {padding-left: 15px;
+			padding-top: 15px;}
+		
+#wrapper dl {
+ 		padding: 15px 75px 15px 75px;
+ 		text-align: left;
+ 		font-size: 18px;
+ }

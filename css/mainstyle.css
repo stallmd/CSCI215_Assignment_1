@@ -1,0 +1,91 @@
+/* my color scheme is:
+ tan: DBD0C2
+ white: white
+ ghost blue: #8FB4CF
+ charcoal: #2F2D32
+ sky blue:#88B5CA*/
+
+
+
+body{background-color: #DBD0C2;}
+
+.header{
+    padding: 30px 0 20px 0;
+    background-image: url(images/header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav
+{
+    height: 40px;
+    width: 100%;
+    margin-top: 300px;
+    background-color: white;
+    text-align: center;
+    color: #2F2D32;
+    opacity: .88;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:link
+{
+   color: #2F2D32;
+   text-decoration: none;
+}
+.nav a:visited
+{
+   color: #2F2D32;
+   text-decoration: none;
+}
+.nav a:hover
+{
+   color: #8FB4CF;
+   text-decoration: none;
+}
+
+.nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding: 12px 0px 0px 0px;
+}
+
+.nav li
+{
+    display: inline;
+    padding-right: 20px;
+}
+
+.row{
+    background-color: white;
+}
+
+.info li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.info ul li {
+    list-style-image: url(images/pinapple.png);
+}
+
+.quote{
+    background-color: #88B5CA;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.footer{
+    background-color: white;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #2F2D32;
+}

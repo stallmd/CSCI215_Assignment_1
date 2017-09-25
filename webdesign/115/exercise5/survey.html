@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chapter 9 Exercise</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="music.css">
+</head>
+<body>
+<h1>Music Survey</h1>
+<form method="post">
+
+
+	
+<label for="fullname"> Fullname: </label>
+<input type="textbox" name="name" id="name"><br>
+
+<label for="email"> Email: </label>
+<input type="textbox" name="email" id="email">
+
+<fieldset>
+<legend> Select Your Favorite Types of Music:</legend>
+<input type="checkbox" name="favmusic" id="favrock" value="rock">Rock<br>
+<input type="checkbox" name="favmusic" id="favpop" value="pop">Pop<br>
+<input type="checkbox" name="favmusic" id="favrap" value="rap">Rap<br>
+<input type="checkbox" name="favmusic" id="favcountry" value="country">Country<br>
+<input type="checkbox" name="favmusic" id="favclassical" value="classical">Classical<br>
+<input type="checkbox" name="favmusic" id="favother" value="other">Other<br>
+</fieldset>
+
+<fieldset>
+<legend> Select How Often You Purchase Music CDs:</legend>
+<input type="radio" name="frequency" id="frequency" value="yes">Weekly<br>
+<input type="radio" name="frequency" id="frequency" value="yes">A few times a year<br>
+<input type="radio" name="frequency" id="frequency" value="yes">Monthly<br>
+<input type="radio" name="frequency" id="frequency" value="yes">Never<br>
+</fieldset>
+
+
+<label for="location"> Select the Locations You Listen to Music: </label>
+<select name="location" id="location" size="3">
+	<option> At home </option>
+	<option> In the car </option>
+	<option> Walking </option>
+	<option> Gym </option>
+</select><br>
+
+<label for="message"> What role does music play in your life?</label>
+<textarea name="message" id="message" cols="60" rows="3"> </textarea><br>
+
+
+<input type="submit" value="Submit" name="submit" id="submit">
+<input type="reset" value="Reset" name="reset" id="reset">
+
+
+</form>
+</body>
+</html>

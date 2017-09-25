@@ -1,0 +1,74 @@
+body {background-color: gray;
+		margin: 0;}
+
+#wrapper {width: 950px;
+			background-color: white;
+			margin: auto;
+			height: 700px;
+			}
+			
+#topper {
+	width: 950px;
+	height: 75px;
+	background-color: lightgray;
+	box-shadow: 3px 5px 4px black;
+}	
+
+header { width: 950px;
+	margin: auto;}
+	
+	
+#logo {float: left;
+		width: auto;}
+		
+nav{float: clear;
+	width: 950px;
+	background-color: black;
+	padding: 50px
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+	text-align: center;
+ 	color: white;
+ 	font-family: thoma, arial, sans-serif;}
+	
+nav ul{list-style-type: none;}
+
+nav li{display: inline;}
+
+nav a{text-decoration: none;
+	color: white;
+	padding: 0 5px 0 5px;}
+	
+main{ font-family: thoma, arial, sans-serif;
+	color: black;
+	background-color: white;
+	clear: both;
+	width: 944px;
+	margin: 0px 3px 0px 3px;}
+	
+h1 {padding:10px;}
+	
+#piccol1 {	width: 450px;
+	float: left;
+	min-height: 250px;
+	padding: 0 5px 0 10px;}
+	
+#piccol2 {	width: 450px;
+	float: right;
+	min-height: 250px;
+	padding: 0 10px 0 5px;
+}
+	
+footer{ clear: both;
+	text-align: center;
+	height: 125px;
+	background-color: black;
+	border-top: 1px dotted white;
+	background-color: black;
+	margin: auto;
+	color:ghostwhite;
+	display: table-cell;
+	vertical-align: middle;
+	width: 950px;}
+	

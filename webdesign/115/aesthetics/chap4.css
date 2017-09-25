@@ -1,0 +1,78 @@
+/* 0072BB blue	#e01919 red FFD034 yellow 000000	black C6C8CA gray FFFFFF white*/
+
+body {background-color: #0072BB;
+	background-image: url(images/heros.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: comic sans ms, sans serif;}
+		
+header {color: #FFFFFF
+		background-image: url(images/asfalt.png);}
+
+header h1{font-family: 'Oswald', sans-serif;
+			color: #FFFFFF
+			width: 410px;
+			float:left;
+			font-size: 50px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			margin-left: 10px;}
+			
+header nav {width: 490px;
+			float: right;
+			border-radius:6px;
+			padding: 7px;
+			margin-top: 45px;
+			margin-bottom: 20px;
+			margin-left: 10px;
+			text-align: center;
+			background-color: #FFFFFF;
+			font-family: 'Oswald', sans-serif;}
+
+header nav a{ text-decoration: none;}
+
+#wrapper {width: 950px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #e01919;
+		  }
+			
+#heropic { Clear: both;}
+
+p { font-size: 1.1em;
+	line-height: 140%;}
+
+#button {background-color: #e01919;
+			width: 100px;
+			margin: auto;
+			padding:6px;
+			border-radius: 10px;
+			text-align: center;
+			font-family:'Oswald', sans-serif;}
+
+#leftcol {width: 430px;
+		min-height: 450px;
+			margin: 10px;
+			background-color: #FFD304;
+			padding-left: 5px;
+			padding-right: 5px;
+		float: left;
+		border: 2px solid #C6C8CA; }
+		
+#rightcol {width: 430px;
+			min-height: 450px;
+			margin: 10px;
+			background-color: #FFD304;
+			padding-left: 5px;
+			padding-right: 5px;
+			float: right;
+			border: 2px solid #C6C8CA;}
+			
+#rightcol img {padding-left: 1px;
+				padding-right: 1px;}
+
+footer { color: #FFFFFF
+		background-color: #FFFFFF
+		font-family: 'Oswald', san-serif;
+		text-align: center;
+		Clear: both;}

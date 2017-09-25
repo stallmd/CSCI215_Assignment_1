@@ -1,0 +1,74 @@
+#wrapper { background-color: #d3d4d9; 
+           color: #d3d4d9;
+           width: 900px;
+		   margin: auto;
+} 
+
+
+body {background-color: #4b88a2;
+}
+
+nav { float: left;
+	  width: 175px;
+	  height: 870px;
+	  letter-spacing:0.1em;
+	  font-weight: bold;
+	  background-color: #00223a;
+	  font-family: 'Racing Sans One', cursive;
+	  font-size: 20px;
+} 
+
+img{width: 100%;}
+
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+}
+nav li { border-bottom: 1px solid #d3d4d9;
+}
+nav a { text-decoration: none; 
+        display: block;
+		padding: 15px;
+		
+}
+nav a:link { color: #d3d4d9; }
+nav a:visited { color: #d3d4d9; }
+nav a:hover {  color: #f18805;
+               background-color: #00223a;}
+
+			
+footer {font-family: 'futura', sans-serif;
+		padding: 7px;
+		clear: both;
+		color: #d3d4d9;
+		background-color: #f18805;
+		border-top: 2px solid #00223a;}
+		
+
+#top {float: left;
+		background-color: #f18805;
+		font-family: 'Racing Sans One', cursive;
+		color: #bb0a21;
+		width: 700px;
+		padding: 15px 10px 5px 5px;}
+
+#heropic img{width: 700px;
+				float:left;
+				padding: 15px 10px 15px 5px;
+				background-color: gray; 
+				clear:right;
+				border-top: 1px solid #00223a;
+				border-bottom: 1px solid #00223a;}
+
+				
+#body {clear:right;
+		float: left;
+		width: 700px;
+		background-color: #bb0a21;
+		color: white;
+		padding: 15px 10px 5px 5px;
+		}
+h2 {font-family: 'Racing Sans One', cursive;}
+
+p{font-family: 'futura', sans-serif;}
+

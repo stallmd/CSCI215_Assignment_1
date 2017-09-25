@@ -1,0 +1,95 @@
+#wrapper { background-color: #d3d4d9; 
+           color: #d3d4d9;
+           width: 900px;
+		   margin: auto;
+} 
+
+body {background-color: #4b88a2;
+}
+
+img {width:100%;}
+
+nav { float: left;
+	  width: 175px;
+	  min-height: 650px;
+	  letter-spacing:0.1em;
+	  font-weight: bold;
+	  background-color: #00223a;
+	  font-family: 'Racing Sans One', cursive;
+	  font-size: 20px;
+} 
+
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+}
+nav li { border-bottom: 1px solid #d3d4d9;
+}
+nav a { text-decoration: none; 
+        display: block;
+		padding: 15px;
+		
+}
+nav a:link { color: #d3d4d9; }
+nav a:visited { color: #d3d4d9; }
+nav a:hover {  color: #f18805;
+               background-color: #00223a;}
+
+footer {font-family: 'futura', sans-serif;
+		padding: 7px;
+		clear: both;
+		color: #d3d4d9;
+		background-color: #bb0a21;
+		border-top: 2px solid #00223a;}
+		
+		
+#leftcol {width: 200px;
+			height: 200px;
+			margin-left: 8px;
+			background-color: white;
+			padding-left: 5px;
+			padding-right: 15px;
+		float: left;
+		border-top: 2px solid #00223a;
+		border-left: 2px solid #00223a;
+		border-bottom: 2px solid #00223a; }
+		
+#widecol {width: 475px;
+			height: 200px;
+			margin-right: 8px;
+			background-color: gray;
+			padding-left: 5px;
+			padding-right: 5px;
+			float: right;
+			font-family:'futura', sans-serif;
+			border-top: 2px solid #00223a;
+			border-right: 2px solid #00223a;
+			border-bottom: 2px solid #00223a;}
+			
+h1 {font-family: 'Racing Sans One', cursive;
+	color: #bb0a21;
+	margin: 10px;
+	padding-left: 70px;
+	text-align: left;}
+
+#table {clear:float;}
+
+table {width: 709.5px;
+		border-collapse: collapse;}
+th,td {text-align: left;
+		padding: 8px;}
+		
+tr:nth-child(even) {background-color: #00223a;}
+tr:nth-child(odd) {background-color: #f18805;}
+
+th {font-size: 35px;
+	color: white;
+	background-color: #bb0a21}
+
+	
+tr, td {color: white; font-size: 25px;}
+					
+th {font-family: 'Racing Sans One', cursive;}
+
+tr {font-family: 'futura', sans-serif;}
+

@@ -1,0 +1,81 @@
+/*It is common for designers to reset or zero-out HTML elements. 
+See: http://meyerweb.com/eric/tools/css/reset 
+*/
+html, body, h1, h2, p, li {
+	margin: 0; 
+	padding: 0; 
+}
+ 
+body {
+	background-color: #3B5323; 
+	font-family: verdana, arial, helvetica; 
+	color: #555; 
+}
+
+#wrapper  {
+	width: 800px;
+	background-color: lightblue; 
+}
+ 
+ header { 
+ 	height: 150px;
+ 	background-color: blue;
+ 	background-image: url(pig.png);
+	background-repeat: no-repeat;
+ }
+ 
+ h1 {
+	font-size: 50px;
+	color:  #388e8e;
+	padding-top: 30px;
+	padding-left: 150px;
+	}
+	
+ nav{ width: 200px;
+ 	float:left;
+ 	min-height: 400px;
+ 	}
+ 
+ nav ul {list-style-type: none;
+ 		padding: 0 0 0 10px;
+ 		margin: 20px 0 0 0;}
+ 
+ nav li { border: 1px solid black;
+ 			width: 120px;
+ 			margin-top: 5px;}
+ 
+ nav a {text-decoration: none;
+ 		display: block;
+ 		padding-left: 5px;
+ 		}
+ 
+ nav a:link {color: olive;}
+ nav a:visited {color: orange;}
+ nav a:hover {background: gray;
+ 				color: lavender;}
+ 
+ main { display: block;
+ 	min-height: 400px;
+ 	margin-left: 255px;
+ 	background-color: white;
+ 	padding: 15px;
+ 	border-left: 1px solid gray;
+ 	 }
+ 	 
+ footer{ font-style: italic;
+ 		background-color: #008b8b;
+ 		padding: 10px 15px;}
+ 		
+ .menu ul{ list-style-type: none; }
+ 
+ .menu li{ display: inline;
+ 			border: 2px solid orange;
+ 			background-color: #d1eeee;
+ 			padding: 3px 15px 3px 15px;
+ 			border-radius: 5px;
+ 			margin: 0px, 5px;
+ 			}
+
+.menu a {text-decoration: none;}
+
+main ul {list-style-image: url(fork.png);}

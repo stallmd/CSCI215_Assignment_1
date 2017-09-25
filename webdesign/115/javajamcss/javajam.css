@@ -1,0 +1,22 @@
+
+
+body { background-color: #FCEBB6;
+		color: #221811;
+		font-family: verdana, ariel, sans-serif; }
+		
+header { background-color: #D2B49C;
+		text-align: center; }
+
+h1 { line-height: 200% }
+
+nav { text-align: center; 
+		font-weight: bold;}
+		
+footer { background-color: #D2B48C;
+		font-size: .60em;
+		text-align: center;
+		font-style: italic; }
+		
+#wrapper {width: 80%;
+			margin-left: auto;
+			margin-right: auto; }
